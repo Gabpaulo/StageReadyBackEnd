@@ -5,6 +5,7 @@ Extracts speech features from audio files for ML model prediction
 import librosa
 import numpy as np
 from pathlib import Path
+import speech_recognition as sr
 
 
 class AudioFeatureExtractor:
@@ -12,6 +13,7 @@ class AudioFeatureExtractor:
 
     def __init__(self):
         self.sr = 22050  # Sample rate for librosa
+        self.recognizer = sr.Recognizer()
 
     def extract_features(self, audio_path):
         """
@@ -88,6 +90,7 @@ class AudioFeatureExtractor:
 
         # Compile all features
         features = {
+            'duration': duration,  # Audio duration in seconds
             'loud_mean': loud_mean,
             'loud_std': loud_std,
             'pause_ratio': pause_ratio,
@@ -104,6 +107,67 @@ class AudioFeatureExtractor:
         }
 
         return features
+
+    def extract_transcript(self, audio_path):
+        """
+        Extract transcript from audio file using speech recognition
+
+        Args:
+            audio_path: Path to audio file
+
+        Returns:
+            str: Transcribed text
+        """
+        try:
+            # Convert audio to WAV format if needed for better compatibility
+            with sr.AudioFile(audio_path) as source:
+                audio_data = self.recognizer.record(source)
+                # Use Google Speech Recognition (free)
+                transcript = self.recognizer.recognize_google(audio_data)
+                return transcript
+        except sr.UnknownValueError:
+            return "Could not understand audio"
+        except sr.RequestError as e:
+            return f"Could not request results; {e}"
+        except Exception as e:
+            return f"Error during transcription: {str(e)}"
+
+    def extract_transcript_from_bytes(self, audio_bytes, file_extension='wav'):
+        """
+        Extract transcript from audio file bytes
+
+        Args:
+            audio_bytes: Audio file as bytes
+            file_extension: File extension (wav, webm, mp3, etc.)
+
+        Returns:
+            str: Transcribed text
+        """
+        import tempfile
+        import os
+        from pydub import AudioSegment
+
+        # Create temporary file
+        with tempfile.NamedTemporaryFile(delete=False, suffix=f'.{file_extension}') as temp_file:
+            temp_file.write(audio_bytes)
+            temp_path = temp_file.name
+
+        try:
+            # Convert to WAV if not already
+            if file_extension.lower() != 'wav':
+                audio = AudioSegment.from_file(temp_path, format=file_extension)
+                wav_path = temp_path.replace(f'.{file_extension}', '.wav')
+                audio.export(wav_path, format='wav')
+                transcript = self.extract_transcript(wav_path)
+                os.unlink(wav_path)
+            else:
+                transcript = self.extract_transcript(temp_path)
+
+            return transcript
+        finally:
+            # Clean up temporary file
+            if os.path.exists(temp_path):
+                os.unlink(temp_path)
 
     def extract_features_from_bytes(self, audio_bytes, file_extension='wav'):
         """

@@ -71,6 +71,8 @@ class SpeechPredictionOutputSerializer(serializers.Serializer):
     overall = serializers.IntegerField()
 
     # Additional info
+    transcript = serializers.CharField(required=False, allow_blank=True)
+    duration = serializers.FloatField(required=False)  # Audio duration in seconds
     feedback = serializers.DictField(required=False)
     recommendations = serializers.ListField(required=False)
 

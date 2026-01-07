@@ -15,6 +15,10 @@ scipy>=1.12.0
 # Audio Processing (for future audio upload feature)
 librosa==0.10.1
 soundfile==0.12.1
+pydub>=0.25.1
+
+# Speech Recognition
+SpeechRecognition>=3.10.0
 
 # Utilities
 python-dotenv==1.0.0
