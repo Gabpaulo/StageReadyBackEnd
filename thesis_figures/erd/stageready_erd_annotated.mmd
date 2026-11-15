@@ -1,0 +1,144 @@
+erDiagram
+    SPEECH_REFERENCE }o..o{ SPEECH : "retrieved for (Corpus 1)"
+    KNOWLEDGE_CHUNK }o..o{ SPEECH : "retrieved for (Corpus 2)"
+    USER ||--o{ SPEECH : "records"
+    USER ||--o{ SPEECH_HISTORY : "has"
+    SPEECH ||--o| AUDIO_FILE : "stores audio"
+    SPEECH_HISTORY ||--o| AUDIO_FILE : "stores audio"
+    USER ||--o{ PRACTICE_SESSION : "completes"
+    PRACTICE_SCRIPT ||--o{ PRACTICE_SESSION : "used in"
+    USER ||--|| USER_GAMIFICATION : "has"
+    USER ||--|| USER_BADGES : "has"
+    USER_BADGES ||--|{ BADGE_PROGRESS : "contains"
+    BADGE_DEFINITION ||--o{ BADGE_PROGRESS : "defines"
+
+    USER {
+        string uid PK "Firebase Auth UID"
+        string email
+        string displayName
+        string firstName
+        string lastName
+        number age
+        string gender
+        string phoneNumber
+        array interests
+        string bio
+        string defaultSpeechType "informative | persuasive | motivational"
+        string role "user | admin"
+        boolean onboardingComplete
+        timestamp createdAt
+        timestamp updatedAt
+    }
+    SPEECH {
+        string id PK
+        string userId FK "parent: users/{uid}"
+        string speechType
+        map feedback "full analysis: transcript, 8 scores, LLM feedback, rag_metadata"
+        string audioUrl FK
+        timestamp createdAt
+    }
+    SPEECH_HISTORY {
+        string id PK
+        string userId FK "parent: users/{uid}"
+        string transcript
+        string speechType
+        map scores "8 dimensions, 1-5"
+        map feedbackDetails "per-dimension feedback, strengths, improvements"
+        number duration "seconds"
+        number wordCount
+        number averagePace "WPM"
+        string audioUrl FK
+        string audioMimeType
+        timestamp createdAt
+    }
+    PRACTICE_SESSION {
+        string id PK
+        string userId FK "parent: users/{uid}"
+        string scriptId FK
+        string scriptTitle
+        string scriptCategory
+        string scriptDifficulty
+        map preScores
+        map postScores
+        map improvement "post minus pre"
+        number preSessionCount
+        number wordAccuracy
+        number actualWpm
+        number duration
+        number fillerCount
+        timestamp createdAt
+    }
+    PRACTICE_SCRIPT {
+        string id PK
+        string title
+        string category
+        string difficulty "beginner | intermediate | advanced"
+        number estimatedDuration
+        string rawText
+        array targetDimensions
+        map targetWpmRange "min, max"
+        string scriptTargetPausing
+        string scriptTargetPitch
+        string scriptTargetFiller
+        string scriptTargetArticulation
+        number sortOrder
+        boolean active
+    }
+    USER_GAMIFICATION {
+        string userId PK,FK "doc id = uid"
+        number level
+        number currentXP
+        number totalXP
+        number currentStreak
+        number longestStreak
+        timestamp lastActivityDate
+        map dailyChallenge "challenge, xpReward, date, completed"
+        timestamp lastUpdated
+    }
+    USER_BADGES {
+        string userId PK,FK "doc id = uid"
+        number totalBadges
+        number unlockedBadges
+        array badges "BADGE_PROGRESS items"
+        timestamp lastUpdated
+    }
+    BADGE_PROGRESS {
+        string badgeId FK "embedded in userBadges.badges"
+        boolean isUnlocked
+        number progress
+        number maxProgress
+        timestamp unlockedAt
+    }
+    BADGE_DEFINITION {
+        string id PK
+        string name
+        string description
+        string icon
+        string category "practice | progress | performance | special | learning"
+        string rarity "common | rare | epic | legendary"
+        number maxProgress
+        map criteria "type, value, condition, ratingType"
+        boolean active
+        timestamp createdAt
+        timestamp updatedAt
+    }
+    AUDIO_FILE {
+        string path PK "Storage: users/{uid}/speeches/{id}.ext"
+        string contentType
+        string downloadUrl
+    }
+    SPEECH_REFERENCE {
+        string file PK "Corpus 1 (CSV, backend)"
+        string category
+        string source "original | synthetic"
+        number acoustic_features "26 values: loudness, pitch, pace, MFCC 1-13, spectral"
+        number rubric_scores "8 dimensions, 1-5"
+        string strengths
+        string areas_improvement
+    }
+    KNOWLEDGE_CHUNK {
+        string id PK "Corpus 2 (ChromaDB), {pdf}_chunk_{i}"
+        string document "300-word text chunk"
+        vector embedding "1536-d text-embedding-3-small"
+        string source "PDF filename"
+    }
