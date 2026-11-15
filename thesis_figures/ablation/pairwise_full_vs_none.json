@@ -1,0 +1,720 @@
+{
+ "a": "full",
+ "b": "none",
+ "model": "gpt-4.1-mini",
+ "n": 30,
+ "pairs": [
+  {
+   "file": "i2.11.mp3",
+   "verdict": {
+    "groundedness": "tie",
+    "specificity": "tie",
+    "actionability": "tie",
+    "overall": "tie"
+   },
+   "raw": [
+    {
+     "groundedness": "tie",
+     "specificity": "A",
+     "actionability": "B",
+     "overall": "B"
+    },
+    {
+     "groundedness": "A",
+     "specificity": "A",
+     "actionability": "B",
+     "overall": "B"
+    }
+   ]
+  },
+  {
+   "file": "i2.12.mp3",
+   "verdict": {
+    "groundedness": "tie",
+    "specificity": "tie",
+    "actionability": "tie",
+    "overall": "tie"
+   },
+   "raw": [
+    {
+     "groundedness": "tie",
+     "specificity": "A",
+     "actionability": "A",
+     "overall": "A"
+    },
+    {
+     "groundedness": "tie",
+     "specificity": "A",
+     "actionability": "tie",
+     "overall": "A"
+    }
+   ]
+  },
+  {
+   "file": "i2.13.mp3",
+   "verdict": {
+    "groundedness": "tie",
+    "specificity": "tie",
+    "actionability": "tie",
+    "overall": "tie"
+   },
+   "raw": [
+    {
+     "groundedness": "A",
+     "specificity": "A",
+     "actionability": "A",
+     "overall": "A"
+    },
+    {
+     "groundedness": "A",
+     "specificity": "A",
+     "actionability": "A",
+     "overall": "A"
+    }
+   ]
+  },
+  {
+   "file": "i2.14.mp3",
+   "verdict": {
+    "groundedness": "tie",
+    "specificity": "tie",
+    "actionability": "tie",
+    "overall": "tie"
+   },
+   "raw": [
+    {
+     "groundedness": "tie",
+     "specificity": "A",
+     "actionability": "A",
+     "overall": "A"
+    },
+    {
+     "groundedness": "tie",
+     "specificity": "tie",
+     "actionability": "tie",
+     "overall": "tie"
+    }
+   ]
+  },
+  {
+   "file": "i2.23.mp3",
+   "verdict": {
+    "groundedness": "tie",
+    "specificity": "tie",
+    "actionability": "tie",
+    "overall": "tie"
+   },
+   "raw": [
+    {
+     "groundedness": "tie",
+     "specificity": "tie",
+     "actionability": "tie",
+     "overall": "tie"
+    },
+    {
+     "groundedness": "tie",
+     "specificity": "A",
+     "actionability": "A",
+     "overall": "A"
+    }
+   ]
+  },
+  {
+   "file": "i2.24.mp3",
+   "verdict": {
+    "groundedness": "tie",
+    "specificity": "tie",
+    "actionability": "tie",
+    "overall": "tie"
+   },
+   "raw": [
+    {
+     "groundedness": "tie",
+     "specificity": "A",
+     "actionability": "A",
+     "overall": "A"
+    },
+    {
+     "groundedness": "tie",
+     "specificity": "tie",
+     "actionability": "tie",
+     "overall": "tie"
+    }
+   ]
+  },
+  {
+   "file": "i2.25.mp3",
+   "verdict": {
+    "groundedness": "tie",
+    "specificity": "tie",
+    "actionability": "tie",
+    "overall": "tie"
+   },
+   "raw": [
+    {
+     "groundedness": "tie",
+     "specificity": "tie",
+     "actionability": "tie",
+     "overall": "tie"
+    },
+    {
+     "groundedness": "tie",
+     "specificity": "A",
+     "actionability": "A",
+     "overall": "A"
+    }
+   ]
+  },
+  {
+   "file": "i2.32.mp3",
+   "verdict": {
+    "groundedness": "tie",
+    "specificity": "tie",
+    "actionability": "tie",
+    "overall": "tie"
+   },
+   "raw": [
+    {
+     "groundedness": "tie",
+     "specificity": "A",
+     "actionability": "A",
+     "overall": "A"
+    },
+    {
+     "groundedness": "tie",
+     "specificity": "tie",
+     "actionability": "tie",
+     "overall": "tie"
+    }
+   ]
+  },
+  {
+   "file": "i2.35.mp3",
+   "verdict": {
+    "groundedness": "tie",
+    "specificity": "tie",
+    "actionability": "tie",
+    "overall": "tie"
+   },
+   "raw": [
+    {
+     "groundedness": "tie",
+     "specificity": "tie",
+     "actionability": "tie",
+     "overall": "tie"
+    },
+    {
+     "groundedness": "tie",
+     "specificity": "A",
+     "actionability": "tie",
+     "overall": "A"
+    }
+   ]
+  },
+  {
+   "file": "i2.37.mp3",
+   "verdict": {
+    "groundedness": "tie",
+    "specificity": "tie",
+    "actionability": "full",
+    "overall": "full"
+   },
+   "raw": [
+    {
+     "groundedness": "tie",
+     "specificity": "A",
+     "actionability": "A",
+     "overall": "A"
+    },
+    {
+     "groundedness": "tie",
+     "specificity": "A",
+     "actionability": "B",
+     "overall": "B"
+    }
+   ]
+  },
+  {
+   "file": "m2.1.mp3",
+   "verdict": {
+    "groundedness": "tie",
+    "specificity": "tie",
+    "actionability": "tie",
+    "overall": "tie"
+   },
+   "raw": [
+    {
+     "groundedness": "tie",
+     "specificity": "A",
+     "actionability": "A",
+     "overall": "A"
+    },
+    {
+     "groundedness": "tie",
+     "specificity": "A",
+     "actionability": "A",
+     "overall": "A"
+    }
+   ]
+  },
+  {
+   "file": "m2.17.mp3",
+   "verdict": {
+    "groundedness": "tie",
+    "specificity": "tie",
+    "actionability": "tie",
+    "overall": "tie"
+   },
+   "raw": [
+    {
+     "groundedness": "tie",
+     "specificity": "A",
+     "actionability": "tie",
+     "overall": "A"
+    },
+    {
+     "groundedness": "tie",
+     "specificity": "A",
+     "actionability": "A",
+     "overall": "A"
+    }
+   ]
+  },
+  {
+   "file": "m2.19.mp3",
+   "verdict": {
+    "groundedness": "tie",
+    "specificity": "tie",
+    "actionability": "tie",
+    "overall": "tie"
+   },
+   "raw": [
+    {
+     "groundedness": "tie",
+     "specificity": "tie",
+     "actionability": "tie",
+     "overall": "tie"
+    },
+    {
+     "groundedness": "tie",
+     "specificity": "A",
+     "actionability": "tie",
+     "overall": "B"
+    }
+   ]
+  },
+  {
+   "file": "m2.23.mp3",
+   "verdict": {
+    "groundedness": "tie",
+    "specificity": "tie",
+    "actionability": "tie",
+    "overall": "full"
+   },
+   "raw": [
+    {
+     "groundedness": "tie",
+     "specificity": "A",
+     "actionability": "tie",
+     "overall": "A"
+    },
+    {
+     "groundedness": "tie",
+     "specificity": "A",
+     "actionability": "B",
+     "overall": "B"
+    }
+   ]
+  },
+  {
+   "file": "m2.24.mp3",
+   "verdict": {
+    "groundedness": "tie",
+    "specificity": "tie",
+    "actionability": "tie",
+    "overall": "tie"
+   },
+   "raw": [
+    {
+     "groundedness": "tie",
+     "specificity": "A",
+     "actionability": "tie",
+     "overall": "A"
+    },
+    {
+     "groundedness": "tie",
+     "specificity": "A",
+     "actionability": "A",
+     "overall": "A"
+    }
+   ]
+  },
+  {
+   "file": "m2.25.mp3",
+   "verdict": {
+    "groundedness": "tie",
+    "specificity": "tie",
+    "actionability": "tie",
+    "overall": "tie"
+   },
+   "raw": [
+    {
+     "groundedness": "A",
+     "specificity": "A",
+     "actionability": "A",
+     "overall": "A"
+    },
+    {
+     "groundedness": "A",
+     "specificity": "A",
+     "actionability": "tie",
+     "overall": "A"
+    }
+   ]
+  },
+  {
+   "file": "m2.26.mp3",
+   "verdict": {
+    "groundedness": "tie",
+    "specificity": "tie",
+    "actionability": "tie",
+    "overall": "tie"
+   },
+   "raw": [
+    {
+     "groundedness": "tie",
+     "specificity": "tie",
+     "actionability": "tie",
+     "overall": "tie"
+    },
+    {
+     "groundedness": "tie",
+     "specificity": "tie",
+     "actionability": "tie",
+     "overall": "tie"
+    }
+   ]
+  },
+  {
+   "file": "m2.27.mp3",
+   "verdict": {
+    "groundedness": "tie",
+    "specificity": "tie",
+    "actionability": "tie",
+    "overall": "full"
+   },
+   "raw": [
+    {
+     "groundedness": "tie",
+     "specificity": "A",
+     "actionability": "tie",
+     "overall": "A"
+    },
+    {
+     "groundedness": "tie",
+     "specificity": "A",
+     "actionability": "tie",
+     "overall": "B"
+    }
+   ]
+  },
+  {
+   "file": "m2.28.mp3",
+   "verdict": {
+    "groundedness": "tie",
+    "specificity": "tie",
+    "actionability": "tie",
+    "overall": "tie"
+   },
+   "raw": [
+    {
+     "groundedness": "tie",
+     "specificity": "tie",
+     "actionability": "tie",
+     "overall": "tie"
+    },
+    {
+     "groundedness": "tie",
+     "specificity": "tie",
+     "actionability": "tie",
+     "overall": "tie"
+    }
+   ]
+  },
+  {
+   "file": "m2.31.mp3",
+   "verdict": {
+    "groundedness": "tie",
+    "specificity": "tie",
+    "actionability": "tie",
+    "overall": "tie"
+   },
+   "raw": [
+    {
+     "groundedness": "tie",
+     "specificity": "A",
+     "actionability": "tie",
+     "overall": "A"
+    },
+    {
+     "groundedness": "tie",
+     "specificity": "tie",
+     "actionability": "tie",
+     "overall": "tie"
+    }
+   ]
+  },
+  {
+   "file": "p2.11.mp3",
+   "verdict": {
+    "groundedness": "tie",
+    "specificity": "tie",
+    "actionability": "tie",
+    "overall": "tie"
+   },
+   "raw": [
+    {
+     "groundedness": "tie",
+     "specificity": "tie",
+     "actionability": "tie",
+     "overall": "tie"
+    },
+    {
+     "groundedness": "tie",
+     "specificity": "A",
+     "actionability": "tie",
+     "overall": "A"
+    }
+   ]
+  },
+  {
+   "file": "p2.12.mp3",
+   "verdict": {
+    "groundedness": "tie",
+    "specificity": "tie",
+    "actionability": "tie",
+    "overall": "tie"
+   },
+   "raw": [
+    {
+     "groundedness": "tie",
+     "specificity": "A",
+     "actionability": "A",
+     "overall": "A"
+    },
+    {
+     "groundedness": "tie",
+     "specificity": "tie",
+     "actionability": "tie",
+     "overall": "tie"
+    }
+   ]
+  },
+  {
+   "file": "p2.14.mp3",
+   "verdict": {
+    "groundedness": "tie",
+    "specificity": "tie",
+    "actionability": "tie",
+    "overall": "tie"
+   },
+   "raw": [
+    {
+     "groundedness": "tie",
+     "specificity": "A",
+     "actionability": "A",
+     "overall": "A"
+    },
+    {
+     "groundedness": "tie",
+     "specificity": "tie",
+     "actionability": "tie",
+     "overall": "tie"
+    }
+   ]
+  },
+  {
+   "file": "p2.24.mp3",
+   "verdict": {
+    "groundedness": "tie",
+    "specificity": "tie",
+    "actionability": "tie",
+    "overall": "tie"
+   },
+   "raw": [
+    {
+     "groundedness": "tie",
+     "specificity": "A",
+     "actionability": "B",
+     "overall": "B"
+    },
+    {
+     "groundedness": "tie",
+     "specificity": "tie",
+     "actionability": "tie",
+     "overall": "tie"
+    }
+   ]
+  },
+  {
+   "file": "p2.25.mp3",
+   "verdict": {
+    "groundedness": "tie",
+    "specificity": "tie",
+    "actionability": "tie",
+    "overall": "tie"
+   },
+   "raw": [
+    {
+     "groundedness": "tie",
+     "specificity": "tie",
+     "actionability": "tie",
+     "overall": "tie"
+    },
+    {
+     "groundedness": "A",
+     "specificity": "A",
+     "actionability": "A",
+     "overall": "A"
+    }
+   ]
+  },
+  {
+   "file": "p2.29.mp3",
+   "verdict": {
+    "groundedness": "tie",
+    "specificity": "tie",
+    "actionability": "full",
+    "overall": "full"
+   },
+   "raw": [
+    {
+     "groundedness": "tie",
+     "specificity": "A",
+     "actionability": "A",
+     "overall": "A"
+    },
+    {
+     "groundedness": "tie",
+     "specificity": "tie",
+     "actionability": "B",
+     "overall": "B"
+    }
+   ]
+  },
+  {
+   "file": "p2.5.mp3",
+   "verdict": {
+    "groundedness": "tie",
+    "specificity": "tie",
+    "actionability": "tie",
+    "overall": "tie"
+   },
+   "raw": [
+    {
+     "groundedness": "tie",
+     "specificity": "tie",
+     "actionability": "tie",
+     "overall": "tie"
+    },
+    {
+     "groundedness": "tie",
+     "specificity": "A",
+     "actionability": "A",
+     "overall": "A"
+    }
+   ]
+  },
+  {
+   "file": "p2.6.mp3",
+   "verdict": {
+    "groundedness": "tie",
+    "specificity": "tie",
+    "actionability": "tie",
+    "overall": "tie"
+   },
+   "raw": [
+    {
+     "groundedness": "tie",
+     "specificity": "A",
+     "actionability": "A",
+     "overall": "A"
+    },
+    {
+     "groundedness": "tie",
+     "specificity": "tie",
+     "actionability": "tie",
+     "overall": "tie"
+    }
+   ]
+  },
+  {
+   "file": "p2.8.mp3",
+   "verdict": {
+    "groundedness": "tie",
+    "specificity": "tie",
+    "actionability": "tie",
+    "overall": "tie"
+   },
+   "raw": [
+    {
+     "groundedness": "tie",
+     "specificity": "tie",
+     "actionability": "tie",
+     "overall": "tie"
+    },
+    {
+     "groundedness": "tie",
+     "specificity": "A",
+     "actionability": "A",
+     "overall": "A"
+    }
+   ]
+  },
+  {
+   "file": "p2.9.mp3",
+   "verdict": {
+    "groundedness": "tie",
+    "specificity": "tie",
+    "actionability": "tie",
+    "overall": "none"
+   },
+   "raw": [
+    {
+     "groundedness": "tie",
+     "specificity": "A",
+     "actionability": "B",
+     "overall": "B"
+    },
+    {
+     "groundedness": "tie",
+     "specificity": "A",
+     "actionability": "tie",
+     "overall": "A"
+    }
+   ]
+  }
+ ],
+ "totals": {
+  "groundedness": {
+   "full": 0,
+   "none": 0,
+   "tie": 30
+  },
+  "specificity": {
+   "full": 0,
+   "none": 0,
+   "tie": 30
+  },
+  "actionability": {
+   "full": 2,
+   "none": 0,
+   "tie": 28
+  },
+  "overall": {
+   "full": 4,
+   "none": 1,
+   "tie": 25
+  }
+ }
+}
