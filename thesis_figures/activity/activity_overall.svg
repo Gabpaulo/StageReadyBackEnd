@@ -1,0 +1,196 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1530" viewBox="0 0 1280 1530" font-family="Arial, Helvetica, sans-serif" xmlns:c2pa="http://c2pa.org/manifest">
+<defs><marker id="ah" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 z" fill="#333"/></marker></defs>
+<rect width="1280" height="1530" fill="#FFFFFF"/>
+<circle cx="495" cy="40" r="11" fill="#222"/>
+<path d="M 495,51 L 495,77" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#ah)"/>
+<rect x="395.0" y="77.0" width="200" height="46" rx="14" fill="#DCEBFA" stroke="#3A6EA5" stroke-width="1.6"/>
+<text x="495" y="100.0" font-size="12.5" text-anchor="middle" dominant-baseline="middle" font-weight="normal" font-style="normal">Open StageReady</text>
+<path d="M 495,123 L 495,151" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#ah)"/>
+<rect x="385.0" y="151.0" width="220" height="46" rx="14" fill="#DCEBFA" stroke="#3A6EA5" stroke-width="1.6"/>
+<text x="495" y="166.4" font-size="12.5" text-anchor="middle" dominant-baseline="middle" font-weight="normal" font-style="normal">Log in or register</text>
+<text x="495" y="181.6" font-size="12.5" text-anchor="middle" dominant-baseline="middle" font-weight="normal" font-style="normal">(email or Google)</text>
+<path d="M 495,197 L 495,226" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#ah)"/>
+<polygon points="495,226.0 570.0,254 495,282.0 420.0,254" fill="#FFFFFF" stroke="#444" stroke-width="1.6"/>
+<text x="495" y="246.7" font-size="12" text-anchor="middle" dominant-baseline="middle" font-weight="normal" font-style="normal">Credentials</text>
+<text x="495" y="261.3" font-size="12" text-anchor="middle" dominant-baseline="middle" font-weight="normal" font-style="normal">valid?</text>
+<path d="M 420,254 L 330,254 L 330,174 L 385,174" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#ah)"/>
+<text x="345" y="240.0" font-size="11.5" text-anchor="start" dominant-baseline="middle" font-weight="normal" font-style="italic">[no]</text>
+<path d="M 495,282 L 495,306" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#ah)"/>
+<text x="503" y="294.0" font-size="11.5" text-anchor="start" dominant-baseline="middle" font-weight="normal" font-style="italic">[yes]</text>
+<polygon points="495,306.0 570.0,334 495,362.0 420.0,334" fill="#FFFFFF" stroke="#444" stroke-width="1.6"/>
+<text x="495" y="326.7" font-size="12" text-anchor="middle" dominant-baseline="middle" font-weight="normal" font-style="normal">Admin</text>
+<text x="495" y="341.3" font-size="12" text-anchor="middle" dominant-baseline="middle" font-weight="normal" font-style="normal">account?</text>
+<path d="M 570,334 L 1020,334" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#ah)"/>
+<text x="585" y="320.0" font-size="11.5" text-anchor="start" dominant-baseline="middle" font-weight="normal" font-style="italic">[yes]</text>
+<path d="M 495,362 L 495,386" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#ah)"/>
+<text x="503" y="374.0" font-size="11.5" text-anchor="start" dominant-baseline="middle" font-weight="normal" font-style="italic">[no]</text>
+<polygon points="495,386.0 570.0,414 495,442.0 420.0,414" fill="#FFFFFF" stroke="#444" stroke-width="1.6"/>
+<text x="495" y="406.7" font-size="12" text-anchor="middle" dominant-baseline="middle" font-weight="normal" font-style="normal">Onboarding</text>
+<text x="495" y="421.3" font-size="12" text-anchor="middle" dominant-baseline="middle" font-weight="normal" font-style="normal">complete?</text>
+<rect x="135.0" y="384.0" width="210" height="60" rx="14" fill="#DCEBFA" stroke="#3A6EA5" stroke-width="1.6"/>
+<text x="240" y="398.8" font-size="12.5" text-anchor="middle" dominant-baseline="middle" font-weight="normal" font-style="normal">Complete onboarding</text>
+<text x="240" y="414.0" font-size="12.5" text-anchor="middle" dominant-baseline="middle" font-weight="normal" font-style="normal">(name, age, interests,</text>
+<text x="240" y="429.2" font-size="12.5" text-anchor="middle" dominant-baseline="middle" font-weight="normal" font-style="normal">speech type)</text>
+<path d="M 420,414 L 345,414" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#ah)"/>
+<text x="410" y="400.0" font-size="11.5" text-anchor="end" dominant-baseline="middle" font-weight="normal" font-style="italic">[no]</text>
+<path d="M 240,444 L 240,510 L 345,510" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#ah)"/>
+<path d="M 495,442 L 495,487" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#ah)"/>
+<text x="503" y="464.0" font-size="11.5" text-anchor="start" dominant-baseline="middle" font-weight="normal" font-style="italic">[yes]</text>
+<rect x="345.0" y="487.0" width="300" height="46" rx="14" fill="#E3F1E1" stroke="#4A8A45" stroke-width="1.6"/>
+<text x="495" y="502.4" font-size="12.5" text-anchor="middle" dominant-baseline="middle" font-weight="normal" font-style="normal">Load dashboard (XP, level, streak,</text>
+<text x="495" y="517.6" font-size="12.5" text-anchor="middle" dominant-baseline="middle" font-weight="normal" font-style="normal">daily challenge, practice plan)</text>
+<path d="M 495,533 L 495,572" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#ah)"/>
+<polygon points="495,572.0 565.0,600 495,628.0 425.0,600" fill="#FFFFFF" stroke="#444" stroke-width="1.6"/>
+<text x="495" y="592.7" font-size="12" text-anchor="middle" dominant-baseline="middle" font-weight="normal" font-style="normal">Choose</text>
+<text x="495" y="607.3" font-size="12" text-anchor="middle" dominant-baseline="middle" font-weight="normal" font-style="normal">activity</text>
+<path d="M 495,628 L 495,655" fill="none" stroke="#333" stroke-width="1.4"/>
+<line x1="150" y1="655" x2="840" y2="655" stroke="#333" stroke-width="1.4"/>
+<path d="M 150,655 L 150,687" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#ah)"/>
+<text x="156" y="672.0" font-size="11.5" text-anchor="start" dominant-baseline="middle" font-weight="normal" font-style="italic">[record speech]</text>
+<path d="M 380,655 L 380,687" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#ah)"/>
+<text x="386" y="672.0" font-size="11.5" text-anchor="start" dominant-baseline="middle" font-weight="normal" font-style="italic">[practice script]</text>
+<path d="M 610,655 L 610,687" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#ah)"/>
+<text x="616" y="672.0" font-size="11.5" text-anchor="start" dominant-baseline="middle" font-weight="normal" font-style="italic">[take quiz]</text>
+<path d="M 840,655 L 840,687" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#ah)"/>
+<text x="846" y="672.0" font-size="11.5" text-anchor="start" dominant-baseline="middle" font-weight="normal" font-style="italic">[review progress]</text>
+<rect x="50.0" y="687.0" width="200" height="46" rx="14" fill="#DCEBFA" stroke="#3A6EA5" stroke-width="1.6"/>
+<text x="150" y="702.4" font-size="12.5" text-anchor="middle" dominant-baseline="middle" font-weight="normal" font-style="normal">Record speech and</text>
+<text x="150" y="717.6" font-size="12.5" text-anchor="middle" dominant-baseline="middle" font-weight="normal" font-style="normal">choose speech type</text>
+<path d="M 150,733.0 L 150,759.0" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#ah)"/>
+<rect x="50.0" y="759.0" width="200" height="46" rx="14" fill="#FCEBD2" stroke="#B9771E" stroke-width="1.6"/>
+<text x="150" y="774.4" font-size="12.5" text-anchor="middle" dominant-baseline="middle" font-weight="normal" font-style="normal">Transcribe audio</text>
+<text x="150" y="789.6" font-size="12.5" text-anchor="middle" dominant-baseline="middle" font-weight="normal" font-style="normal">(Whisper)</text>
+<path d="M 150,805.0 L 150,831.0" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#ah)"/>
+<rect x="50.0" y="831.0" width="200" height="46" rx="14" fill="#FCEBD2" stroke="#B9771E" stroke-width="1.6"/>
+<text x="150" y="846.4" font-size="12.5" text-anchor="middle" dominant-baseline="middle" font-weight="normal" font-style="normal">Extract acoustic</text>
+<text x="150" y="861.6" font-size="12.5" text-anchor="middle" dominant-baseline="middle" font-weight="normal" font-style="normal">features</text>
+<path d="M 150,877.0 L 150,896.0" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#ah)"/>
+<rect x="50.0" y="896.0" width="200" height="60" rx="14" fill="#FCEBD2" stroke="#B9771E" stroke-width="1.6"/>
+<text x="150" y="910.8" font-size="12.5" text-anchor="middle" dominant-baseline="middle" font-weight="normal" font-style="normal">Retrieve similar speeches</text>
+<text x="150" y="926.0" font-size="12.5" text-anchor="middle" dominant-baseline="middle" font-weight="normal" font-style="normal">and expert tips</text>
+<text x="150" y="941.2" font-size="12.5" text-anchor="middle" dominant-baseline="middle" font-weight="normal" font-style="normal">(Corpus 1 + Corpus 2)</text>
+<path d="M 150,956.0 L 150,975.0" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#ah)"/>
+<rect x="50.0" y="975.0" width="200" height="46" rx="14" fill="#FCEBD2" stroke="#B9771E" stroke-width="1.6"/>
+<text x="150" y="990.4" font-size="12.5" text-anchor="middle" dominant-baseline="middle" font-weight="normal" font-style="normal">Generate scores and</text>
+<text x="150" y="1005.6" font-size="12.5" text-anchor="middle" dominant-baseline="middle" font-weight="normal" font-style="normal">feedback (LLM)</text>
+<path d="M 150,1021.0 L 150,1047.0" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#ah)"/>
+<rect x="50.0" y="1047.0" width="200" height="46" rx="14" fill="#E3F1E1" stroke="#4A8A45" stroke-width="1.6"/>
+<text x="150" y="1062.4" font-size="12.5" text-anchor="middle" dominant-baseline="middle" font-weight="normal" font-style="normal">Save session to</text>
+<text x="150" y="1077.6" font-size="12.5" text-anchor="middle" dominant-baseline="middle" font-weight="normal" font-style="normal">Firestore</text>
+<path d="M 150,1093.0 L 150,1119.0" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#ah)"/>
+<rect x="50.0" y="1119.0" width="200" height="46" rx="14" fill="#E3F1E1" stroke="#4A8A45" stroke-width="1.6"/>
+<text x="150" y="1134.4" font-size="12.5" text-anchor="middle" dominant-baseline="middle" font-weight="normal" font-style="normal">Update XP, streak</text>
+<text x="150" y="1149.6" font-size="12.5" text-anchor="middle" dominant-baseline="middle" font-weight="normal" font-style="normal">and badges</text>
+<path d="M 150,1165.0 L 150,1191.0" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#ah)"/>
+<rect x="50.0" y="1191.0" width="200" height="46" rx="14" fill="#DCEBFA" stroke="#3A6EA5" stroke-width="1.6"/>
+<text x="150" y="1206.4" font-size="12.5" text-anchor="middle" dominant-baseline="middle" font-weight="normal" font-style="normal">View feedback</text>
+<text x="150" y="1221.6" font-size="12.5" text-anchor="middle" dominant-baseline="middle" font-weight="normal" font-style="normal">report</text>
+<path d="M 150,1237.0 L 150,1290" fill="none" stroke="#333" stroke-width="1.4"/>
+<rect x="280.0" y="687.0" width="200" height="46" rx="14" fill="#DCEBFA" stroke="#3A6EA5" stroke-width="1.6"/>
+<text x="380" y="702.4" font-size="12.5" text-anchor="middle" dominant-baseline="middle" font-weight="normal" font-style="normal">Select practice</text>
+<text x="380" y="717.6" font-size="12.5" text-anchor="middle" dominant-baseline="middle" font-weight="normal" font-style="normal">script</text>
+<path d="M 380,733.0 L 380,759.0" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#ah)"/>
+<rect x="280.0" y="759.0" width="200" height="46" rx="14" fill="#DCEBFA" stroke="#3A6EA5" stroke-width="1.6"/>
+<text x="380" y="774.4" font-size="12.5" text-anchor="middle" dominant-baseline="middle" font-weight="normal" font-style="normal">Read script aloud</text>
+<text x="380" y="789.6" font-size="12.5" text-anchor="middle" dominant-baseline="middle" font-weight="normal" font-style="normal">and record</text>
+<path d="M 380,805.0 L 380,831.0" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#ah)"/>
+<rect x="280.0" y="831.0" width="200" height="46" rx="14" fill="#FCEBD2" stroke="#B9771E" stroke-width="1.6"/>
+<text x="380" y="846.4" font-size="12.5" text-anchor="middle" dominant-baseline="middle" font-weight="normal" font-style="normal">Transcribe audio</text>
+<text x="380" y="861.6" font-size="12.5" text-anchor="middle" dominant-baseline="middle" font-weight="normal" font-style="normal">(Whisper)</text>
+<path d="M 380,877.0 L 380,903.0" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#ah)"/>
+<rect x="280.0" y="903.0" width="200" height="46" rx="14" fill="#E3F1E1" stroke="#4A8A45" stroke-width="1.6"/>
+<text x="380" y="918.4" font-size="12.5" text-anchor="middle" dominant-baseline="middle" font-weight="normal" font-style="normal">Compute word</text>
+<text x="380" y="933.6" font-size="12.5" text-anchor="middle" dominant-baseline="middle" font-weight="normal" font-style="normal">accuracy and WPM</text>
+<path d="M 380,949.0 L 380,975.0" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#ah)"/>
+<rect x="280.0" y="975.0" width="200" height="46" rx="14" fill="#E3F1E1" stroke="#4A8A45" stroke-width="1.6"/>
+<text x="380" y="990.4" font-size="12.5" text-anchor="middle" dominant-baseline="middle" font-weight="normal" font-style="normal">Save practice</text>
+<text x="380" y="1005.6" font-size="12.5" text-anchor="middle" dominant-baseline="middle" font-weight="normal" font-style="normal">session</text>
+<path d="M 380,1021.0 L 380,1047.0" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#ah)"/>
+<rect x="280.0" y="1047.0" width="200" height="46" rx="14" fill="#DCEBFA" stroke="#3A6EA5" stroke-width="1.6"/>
+<text x="380" y="1062.4" font-size="12.5" text-anchor="middle" dominant-baseline="middle" font-weight="normal" font-style="normal">View practice</text>
+<text x="380" y="1077.6" font-size="12.5" text-anchor="middle" dominant-baseline="middle" font-weight="normal" font-style="normal">results</text>
+<path d="M 380,1093.0 L 380,1290" fill="none" stroke="#333" stroke-width="1.4"/>
+<rect x="510.0" y="687.0" width="200" height="46" rx="14" fill="#DCEBFA" stroke="#3A6EA5" stroke-width="1.6"/>
+<text x="610" y="702.4" font-size="12.5" text-anchor="middle" dominant-baseline="middle" font-weight="normal" font-style="normal">Open Knowledge Base</text>
+<text x="610" y="717.6" font-size="12.5" text-anchor="middle" dominant-baseline="middle" font-weight="normal" font-style="normal">quiz</text>
+<path d="M 610,733.0 L 610,759.0" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#ah)"/>
+<rect x="510.0" y="759.0" width="200" height="46" rx="14" fill="#FCEBD2" stroke="#B9771E" stroke-width="1.6"/>
+<text x="610" y="774.4" font-size="12.5" text-anchor="middle" dominant-baseline="middle" font-weight="normal" font-style="normal">Generate quiz from</text>
+<text x="610" y="789.6" font-size="12.5" text-anchor="middle" dominant-baseline="middle" font-weight="normal" font-style="normal">Corpus 2 (weak areas)</text>
+<path d="M 610,805.0 L 610,831.0" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#ah)"/>
+<rect x="510.0" y="831.0" width="200" height="46" rx="14" fill="#DCEBFA" stroke="#3A6EA5" stroke-width="1.6"/>
+<text x="610" y="846.4" font-size="12.5" text-anchor="middle" dominant-baseline="middle" font-weight="normal" font-style="normal">Answer quiz</text>
+<text x="610" y="861.6" font-size="12.5" text-anchor="middle" dominant-baseline="middle" font-weight="normal" font-style="normal">questions</text>
+<path d="M 610,877.0 L 610,903.0" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#ah)"/>
+<rect x="510.0" y="903.0" width="200" height="46" rx="14" fill="#E3F1E1" stroke="#4A8A45" stroke-width="1.6"/>
+<text x="610" y="926.0" font-size="12.5" text-anchor="middle" dominant-baseline="middle" font-weight="normal" font-style="normal">Show quiz score</text>
+<path d="M 610,949.0 L 610,1290" fill="none" stroke="#333" stroke-width="1.4"/>
+<rect x="740.0" y="687.0" width="200" height="46" rx="14" fill="#DCEBFA" stroke="#3A6EA5" stroke-width="1.6"/>
+<text x="840" y="702.4" font-size="12.5" text-anchor="middle" dominant-baseline="middle" font-weight="normal" font-style="normal">Open history, badges</text>
+<text x="840" y="717.6" font-size="12.5" text-anchor="middle" dominant-baseline="middle" font-weight="normal" font-style="normal">or profile</text>
+<path d="M 840,733.0 L 840,759.0" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#ah)"/>
+<rect x="740.0" y="759.0" width="200" height="46" rx="14" fill="#E3F1E1" stroke="#4A8A45" stroke-width="1.6"/>
+<text x="840" y="774.4" font-size="12.5" text-anchor="middle" dominant-baseline="middle" font-weight="normal" font-style="normal">Retrieve user records</text>
+<text x="840" y="789.6" font-size="12.5" text-anchor="middle" dominant-baseline="middle" font-weight="normal" font-style="normal">from Firestore</text>
+<path d="M 840,805.0 L 840,831.0" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#ah)"/>
+<rect x="740.0" y="831.0" width="200" height="46" rx="14" fill="#DCEBFA" stroke="#3A6EA5" stroke-width="1.6"/>
+<text x="840" y="846.4" font-size="12.5" text-anchor="middle" dominant-baseline="middle" font-weight="normal" font-style="normal">Review progress or</text>
+<text x="840" y="861.6" font-size="12.5" text-anchor="middle" dominant-baseline="middle" font-weight="normal" font-style="normal">edit profile</text>
+<path d="M 840,877.0 L 840,1290" fill="none" stroke="#333" stroke-width="1.4"/>
+<line x1="150" y1="1290" x2="840" y2="1290" stroke="#333" stroke-width="1.4"/>
+<path d="M 495,1290 L 495,1322" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#ah)"/>
+<polygon points="495,1322.0 575.0,1350 495,1378.0 415.0,1350" fill="#FFFFFF" stroke="#444" stroke-width="1.6"/>
+<text x="495" y="1342.7" font-size="12" text-anchor="middle" dominant-baseline="middle" font-weight="normal" font-style="normal">Continue</text>
+<text x="495" y="1357.3" font-size="12" text-anchor="middle" dominant-baseline="middle" font-weight="normal" font-style="normal">practising?</text>
+<path d="M 415,1350 L 40,1350 L 40,600 L 425,600" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#ah)"/>
+<text x="403" y="1336.0" font-size="11.5" text-anchor="end" dominant-baseline="middle" font-weight="normal" font-style="italic">[yes]</text>
+<path d="M 495,1378 L 495,1407" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#ah)"/>
+<text x="503" y="1392.0" font-size="11.5" text-anchor="start" dominant-baseline="middle" font-weight="normal" font-style="italic">[no]</text>
+<rect x="415.0" y="1407.0" width="160" height="46" rx="14" fill="#DCEBFA" stroke="#3A6EA5" stroke-width="1.6"/>
+<text x="495" y="1430.0" font-size="12.5" text-anchor="middle" dominant-baseline="middle" font-weight="normal" font-style="normal">Log out</text>
+<path d="M 495,1453 L 495,1475" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#ah)"/>
+<circle cx="495" cy="1490" r="14" fill="#FFF" stroke="#222" stroke-width="2"/><circle cx="495" cy="1490" r="8" fill="#222"/>
+<rect x="1020.0" y="311.0" width="220" height="46" rx="14" fill="#E8E0F5" stroke="#6B4FA0" stroke-width="1.6"/>
+<text x="1130" y="326.4" font-size="12.5" text-anchor="middle" dominant-baseline="middle" font-weight="normal" font-style="normal">Open admin</text>
+<text x="1130" y="341.6" font-size="12.5" text-anchor="middle" dominant-baseline="middle" font-weight="normal" font-style="normal">dashboard</text>
+<path d="M 1130,357 L 1130,383" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#ah)"/>
+<rect x="1020.0" y="383.0" width="220" height="46" rx="14" fill="#E8E0F5" stroke="#6B4FA0" stroke-width="1.6"/>
+<text x="1130" y="398.4" font-size="12.5" text-anchor="middle" dominant-baseline="middle" font-weight="normal" font-style="normal">Select module (users,</text>
+<text x="1130" y="413.6" font-size="12.5" text-anchor="middle" dominant-baseline="middle" font-weight="normal" font-style="normal">scripts, badges, speeches)</text>
+<path d="M 1130,429 L 1130,455" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#ah)"/>
+<rect x="1020.0" y="455.0" width="220" height="46" rx="14" fill="#E8E0F5" stroke="#6B4FA0" stroke-width="1.6"/>
+<text x="1130" y="470.4" font-size="12.5" text-anchor="middle" dominant-baseline="middle" font-weight="normal" font-style="normal">Add, edit or delete</text>
+<text x="1130" y="485.6" font-size="12.5" text-anchor="middle" dominant-baseline="middle" font-weight="normal" font-style="normal">a record</text>
+<path d="M 1130,501 L 1130,530" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#ah)"/>
+<polygon points="1130,530.0 1205.0,558 1130,586.0 1055.0,558" fill="#FFFFFF" stroke="#444" stroke-width="1.6"/>
+<text x="1130" y="550.7" font-size="12" text-anchor="middle" dominant-baseline="middle" font-weight="normal" font-style="normal">Input</text>
+<text x="1130" y="565.3" font-size="12" text-anchor="middle" dominant-baseline="middle" font-weight="normal" font-style="normal">valid?</text>
+<path d="M 1205,558 L 1262,558 L 1262,478 L 1240,478" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#ah)"/>
+<text x="1215" y="544.0" font-size="11.5" text-anchor="start" dominant-baseline="middle" font-weight="normal" font-style="italic">[no]</text>
+<path d="M 1130,586 L 1130,615" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#ah)"/>
+<text x="1138" y="600.0" font-size="11.5" text-anchor="start" dominant-baseline="middle" font-weight="normal" font-style="italic">[yes]</text>
+<rect x="1020.0" y="615.0" width="220" height="46" rx="14" fill="#E3F1E1" stroke="#4A8A45" stroke-width="1.6"/>
+<text x="1130" y="630.4" font-size="12.5" text-anchor="middle" dominant-baseline="middle" font-weight="normal" font-style="normal">Save changes to</text>
+<text x="1130" y="645.6" font-size="12.5" text-anchor="middle" dominant-baseline="middle" font-weight="normal" font-style="normal">Firestore</text>
+<path d="M 1130,661 L 1130,690" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#ah)"/>
+<polygon points="1130,690.0 1205.0,718 1130,746.0 1055.0,718" fill="#FFFFFF" stroke="#444" stroke-width="1.6"/>
+<text x="1130" y="710.7" font-size="12" text-anchor="middle" dominant-baseline="middle" font-weight="normal" font-style="normal">More</text>
+<text x="1130" y="725.3" font-size="12" text-anchor="middle" dominant-baseline="middle" font-weight="normal" font-style="normal">changes?</text>
+<path d="M 1055,718 L 1000,718 L 1000,406 L 1020,406" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#ah)"/>
+<text x="1045" y="704.0" font-size="11.5" text-anchor="end" dominant-baseline="middle" font-weight="normal" font-style="italic">[yes]</text>
+<path d="M 1130,746 L 1130,775" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#ah)"/>
+<text x="1138" y="760.0" font-size="11.5" text-anchor="start" dominant-baseline="middle" font-weight="normal" font-style="italic">[no]</text>
+<rect x="1050.0" y="775.0" width="160" height="46" rx="14" fill="#E8E0F5" stroke="#6B4FA0" stroke-width="1.6"/>
+<text x="1130" y="798.0" font-size="12.5" text-anchor="middle" dominant-baseline="middle" font-weight="normal" font-style="normal">Log out</text>
+<path d="M 1130,821 L 1130,1490 L 509,1490" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#ah)"/>
+<rect x="900" y="30" width="350" height="150" rx="6" fill="#FFF" stroke="#999"/>
+<text x="916" y="50.0" font-size="13" text-anchor="start" dominant-baseline="middle" font-weight="bold" font-style="normal">Legend: who performs the action</text>
+<rect x="916" y="67" width="34" height="18" rx="6" fill="#DCEBFA" stroke="#3A6EA5" stroke-width="1.4"/>
+<text x="962" y="76.0" font-size="12.5" text-anchor="start" dominant-baseline="middle" font-weight="normal" font-style="normal">User (student)</text>
+<rect x="916" y="93" width="34" height="18" rx="6" fill="#E8E0F5" stroke="#6B4FA0" stroke-width="1.4"/>
+<text x="962" y="102.0" font-size="12.5" text-anchor="start" dominant-baseline="middle" font-weight="normal" font-style="normal">Administrator</text>
+<rect x="916" y="119" width="34" height="18" rx="6" fill="#E3F1E1" stroke="#4A8A45" stroke-width="1.4"/>
+<text x="962" y="128.0" font-size="12.5" text-anchor="start" dominant-baseline="middle" font-weight="normal" font-style="normal">StageReady app + Firebase</text>
+<rect x="916" y="145" width="34" height="18" rx="6" fill="#FCEBD2" stroke="#B9771E" stroke-width="1.4"/>
+<text x="962" y="154.0" font-size="12.5" text-anchor="start" dominant-baseline="middle" font-weight="normal" font-style="normal">AI backend (FastAPI + RAG)</text>
+<metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTpmZWI2MTUwOS03MjJkLTRmNGMtOGVkOC01MTk4ZGEyYjQ5OGUAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaOqBUu7hvAJr53gGPhFePEwAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDoxMWViODZkMi0zMjNiLTRiM2MtOGQ1My00MGZmYTYzYWE3ZDRscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNowMs1RpHYSNN4cU2dRE/DhQAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggpmqf9W6cOI6SviBhnHnyEiplLtzcANsIjfAwxjVWhnukZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaB/2ojHnmxUje0DgcRk2BgwAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRMAAAAAAAAAAAAAAAAZGhhc2hYIAmRIqz7FmtGI0eNqqAvAdRQBxFdTVjRMlqT8ggmBKJMZG5hbWVuanVtYmYgbWFuaWZlc3RqZXhjbHVzaW9uc4GiZXN0YXJ0GWDKZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOmZlYjYxNTA5LTcyMmQtNGY0Yy04ZWQ4LTUxOThkYTJiNDk4ZS9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjZkNDAzZmZjLTg3ZDItNGQxMi04OTExLTgzZTkwODlhZWZjNXJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCCmap/1bpw4jpK+IGGcefISKmUu3NwA2wiN8DDGNVaGe6JjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFgg9jX4MLVcLKhjQJ1z8Q1EpsiuF7B7GbLgeB0QMmNjJXCiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggF9KNG9QPbEliLumcAIjrbCC+5PPbXXIZq4EPDdrWxNp0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQAqXfAqyn9JmSyVBZ1pFPjdIVNxaG6HNMa0qWD24Ln1sVbRu7Q8hCN2E5BCWl7Y1Q84XTX3U73ckGEFnGd3X9Qc=</c2pa:manifest></metadata></svg>
