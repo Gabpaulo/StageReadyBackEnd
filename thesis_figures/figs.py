@@ -26,7 +26,7 @@ for i in range(3):
     ax.text(o[i]+s[i]/2,i,str(s[i]),va="center",ha="center",color="white",fontsize=9,fontweight="bold")
     ax.text(o[i]+s[i]+0.6,i,f"{o[i]+s[i]} total",va="center",color=TS,fontsize=9)
 ax.set_yticks(y,cats); ax.invert_yaxis(); ax.set_xlim(0,45); ax.set_xlabel("Speeches in Corpus 1")
-ax.legend(loc="lower left",frameon=False,fontsize=8.5,bbox_to_anchor=(0,1.0),ncol=2)
+ax.legend(loc="upper left",frameon=False,fontsize=8.5,bbox_to_anchor=(0,-0.28),ncol=2)
 fin(fig,"fig_corpus1_composition.png","Corpus 1 composition by category and origin","speech_features_augmented.csv · 97 rows (57 original, 40 synthetic)")
 
 # Fig B: with vs without retrieval, mean MAE, two panels
