@@ -1,0 +1,370 @@
+{
+ "n": 97,
+ "by_cat": {
+  "Motivational": 38,
+  "Persuasive": 30,
+  "Informative": 29
+ },
+ "by_src": {
+  "original": {
+   "Informative": 16,
+   "Motivational": 24,
+   "Persuasive": 17
+  },
+  "synthetic": {
+   "Informative": 13,
+   "Motivational": 14,
+   "Persuasive": 13
+  }
+ },
+ "loo_all": {
+  "sim_by_cat": {
+   "top1_sim": {
+    "Informative": 0.974,
+    "Motivational": 0.983,
+    "Persuasive": 0.975
+   },
+   "top3_sim": {
+    "Informative": 0.959,
+    "Motivational": 0.974,
+    "Persuasive": 0.958
+   },
+   "mean_sim": {
+    "Informative": 0.802,
+    "Motivational": 0.846,
+    "Persuasive": 0.821
+   }
+  },
+  "sim_overall": {
+   "top1_sim": 0.978,
+   "top3_sim": 0.964,
+   "mean_sim": 0.825
+  },
+  "mae_knn": {
+   "speechPace": 0.746,
+   "pausing_fluency": 0.649,
+   "loud_control": 0.595,
+   "pitch_variation": 0.581,
+   "articulation_clarity": 0.612,
+   "expressive_emph": 0.756,
+   "filler_words": 0.883,
+   "overall": 0.598
+  },
+  "mae_knn_mean": 0.677,
+  "mae_top1": {
+   "speechPace": 0.753,
+   "pausing_fluency": 0.68,
+   "loud_control": 0.639,
+   "pitch_variation": 0.526,
+   "articulation_clarity": 0.722,
+   "expressive_emph": 0.763,
+   "filler_words": 0.99,
+   "overall": 0.526
+  },
+  "mae_top1_mean": 0.7,
+  "mae_cat": {
+   "speechPace": 1.074,
+   "pausing_fluency": 1.067,
+   "loud_control": 0.771,
+   "pitch_variation": 1.02,
+   "articulation_clarity": 0.863,
+   "expressive_emph": 1.199,
+   "filler_words": 1.081,
+   "overall": 1.049
+  },
+  "mae_cat_mean": 1.016,
+  "mae_glob": {
+   "speechPace": 1.046,
+   "pausing_fluency": 1.049,
+   "loud_control": 0.755,
+   "pitch_variation": 1.005,
+   "articulation_clarity": 0.849,
+   "expressive_emph": 1.207,
+   "filler_words": 1.054,
+   "overall": 1.03
+  },
+  "mae_glob_mean": 1.0,
+  "mae_mid": {
+   "speechPace": 1.031,
+   "pausing_fluency": 1.01,
+   "loud_control": 0.711,
+   "pitch_variation": 0.969,
+   "articulation_clarity": 0.804,
+   "expressive_emph": 1.186,
+   "filler_words": 1.041,
+   "overall": 0.979
+  },
+  "mae_mid_mean": 0.966,
+  "mae_rand": {
+   "speechPace": 1.178,
+   "pausing_fluency": 1.165,
+   "loud_control": 0.892,
+   "pitch_variation": 1.096,
+   "articulation_clarity": 0.962,
+   "expressive_emph": 1.286,
+   "filler_words": 1.208,
+   "overall": 1.118
+  },
+  "mae_rand_mean": 1.113,
+  "top1_hist": {
+   "(0.0, 0.85]": 0.021,
+   "(0.85, 0.9]": 0.021,
+   "(0.9, 0.95]": 0.082,
+   "(0.95, 1.0]": 0.876
+  }
+ },
+ "loo_orig": {
+  "sim_by_cat": {
+   "top1_sim": {
+    "Informative": 0.972,
+    "Motivational": 0.966,
+    "Persuasive": 0.964
+   },
+   "top3_sim": {
+    "Informative": 0.953,
+    "Motivational": 0.952,
+    "Persuasive": 0.943
+   },
+   "mean_sim": {
+    "Informative": 0.832,
+    "Motivational": 0.844,
+    "Persuasive": 0.843
+   }
+  },
+  "sim_overall": {
+   "top1_sim": 0.967,
+   "top3_sim": 0.95,
+   "mean_sim": 0.84
+  },
+  "mae_knn": {
+   "speechPace": 0.637,
+   "pausing_fluency": 0.573,
+   "loud_control": 0.626,
+   "pitch_variation": 0.579,
+   "articulation_clarity": 0.614,
+   "expressive_emph": 0.801,
+   "filler_words": 0.825,
+   "overall": 0.573
+  },
+  "mae_knn_mean": 0.654,
+  "mae_top1": {
+   "speechPace": 0.807,
+   "pausing_fluency": 0.579,
+   "loud_control": 0.649,
+   "pitch_variation": 0.632,
+   "articulation_clarity": 0.632,
+   "expressive_emph": 0.86,
+   "filler_words": 0.895,
+   "overall": 0.579
+  },
+  "mae_top1_mean": 0.704,
+  "mae_cat": {
+   "speechPace": 0.492,
+   "pausing_fluency": 0.541,
+   "loud_control": 0.565,
+   "pitch_variation": 0.607,
+   "articulation_clarity": 0.619,
+   "expressive_emph": 0.75,
+   "filler_words": 0.801,
+   "overall": 0.546
+  },
+  "mae_cat_mean": 0.615,
+  "mae_glob": {
+   "speechPace": 0.483,
+   "pausing_fluency": 0.524,
+   "loud_control": 0.545,
+   "pitch_variation": 0.584,
+   "articulation_clarity": 0.597,
+   "expressive_emph": 0.769,
+   "filler_words": 0.812,
+   "overall": 0.538
+  },
+  "mae_glob_mean": 0.606,
+  "mae_mid": {
+   "speechPace": 0.93,
+   "pausing_fluency": 0.754,
+   "loud_control": 0.509,
+   "pitch_variation": 0.702,
+   "articulation_clarity": 0.526,
+   "expressive_emph": 0.877,
+   "filler_words": 1.018,
+   "overall": 0.614
+  },
+  "mae_mid_mean": 0.741,
+  "mae_rand": {
+   "speechPace": 0.604,
+   "pausing_fluency": 0.577,
+   "loud_control": 0.583,
+   "pitch_variation": 0.614,
+   "articulation_clarity": 0.62,
+   "expressive_emph": 0.805,
+   "filler_words": 0.86,
+   "overall": 0.547
+  },
+  "mae_rand_mean": 0.651,
+  "top1_hist": {
+   "(0.0, 0.85]": 0.0,
+   "(0.85, 0.9]": 0.018,
+   "(0.9, 0.95]": 0.175,
+   "(0.95, 1.0]": 0.807
+  }
+ },
+ "latency_ms": {
+  "mean": 2.219,
+  "p95": 2.662
+ },
+ "score_dist": {
+  "speechPace": {
+   "count": 97.0,
+   "mean": 3.04,
+   "std": 1.24,
+   "min": 1.0,
+   "25%": 2.0,
+   "50%": 3.0,
+   "75%": 4.0,
+   "max": 5.0
+  },
+  "pausing_fluency": {
+   "count": 97.0,
+   "mean": 2.86,
+   "std": 1.2,
+   "min": 1.0,
+   "25%": 2.0,
+   "50%": 3.0,
+   "75%": 4.0,
+   "max": 5.0
+  },
+  "loud_control": {
+   "count": 97.0,
+   "mean": 2.89,
+   "std": 0.95,
+   "min": 1.0,
+   "25%": 2.0,
+   "50%": 3.0,
+   "75%": 4.0,
+   "max": 5.0
+  },
+  "pitch_variation": {
+   "count": 97.0,
+   "mean": 2.77,
+   "std": 1.12,
+   "min": 1.0,
+   "25%": 2.0,
+   "50%": 3.0,
+   "75%": 4.0,
+   "max": 5.0
+  },
+  "articulation_clarity": {
+   "count": 97.0,
+   "mean": 2.79,
+   "std": 1.02,
+   "min": 1.0,
+   "25%": 2.0,
+   "50%": 3.0,
+   "75%": 4.0,
+   "max": 5.0
+  },
+  "expressive_emph": {
+   "count": 97.0,
+   "mean": 2.7,
+   "std": 1.35,
+   "min": 1.0,
+   "25%": 1.0,
+   "50%": 3.0,
+   "75%": 4.0,
+   "max": 5.0
+  },
+  "filler_words": {
+   "count": 97.0,
+   "mean": 2.99,
+   "std": 1.26,
+   "min": 1.0,
+   "25%": 2.0,
+   "50%": 3.0,
+   "75%": 4.0,
+   "max": 5.0
+  },
+  "overall": {
+   "count": 97.0,
+   "mean": 2.7,
+   "std": 1.15,
+   "min": 1.0,
+   "25%": 2.0,
+   "50%": 3.0,
+   "75%": 4.0,
+   "max": 4.0
+  }
+ },
+ "feature_range": {
+  "syllables_per_sec": {
+   "count": 97.0,
+   "mean": 3.968,
+   "std": 1.072,
+   "min": 1.544,
+   "25%": 3.488,
+   "50%": 4.012,
+   "75%": 4.416,
+   "max": 6.677
+  },
+  "pause_ratio": {
+   "count": 97.0,
+   "mean": 0.509,
+   "std": 0.174,
+   "min": 0.121,
+   "25%": 0.448,
+   "50%": 0.53,
+   "75%": 0.584,
+   "max": 0.852
+  },
+  "loud_mean": {
+   "count": 97.0,
+   "mean": 0.027,
+   "std": 0.015,
+   "min": 0.002,
+   "25%": 0.019,
+   "50%": 0.025,
+   "75%": 0.033,
+   "max": 0.073
+  },
+  "loud_std": {
+   "count": 97.0,
+   "mean": 0.038,
+   "std": 0.017,
+   "min": 0.003,
+   "25%": 0.029,
+   "50%": 0.036,
+   "75%": 0.049,
+   "max": 0.081
+  },
+  "pitch_std": {
+   "count": 97.0,
+   "mean": 1045.165,
+   "std": 114.55,
+   "min": 779.33,
+   "25%": 1020.345,
+   "50%": 1075.994,
+   "75%": 1120.346,
+   "max": 1226.685
+  },
+  "spectral_centroid": {
+   "count": 97.0,
+   "mean": 3590.989,
+   "std": 899.253,
+   "min": 1844.88,
+   "25%": 2999.201,
+   "50%": 3413.997,
+   "75%": 4312.88,
+   "max": 6181.929
+  },
+  "spectral_flux": {
+   "count": 97.0,
+   "mean": 0.751,
+   "std": 0.249,
+   "min": 0.313,
+   "25%": 0.543,
+   "50%": 0.733,
+   "75%": 0.896,
+   "max": 1.367
+  }
+ }
+}
