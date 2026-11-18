@@ -12,12 +12,12 @@ ION, BE, OUT = sys.argv[1], sys.argv[2], sys.argv[3]
 SVC = "src/app/services/speech-analysis-api.service.ts"
 L = [
  ("3.1", "transcribe endpoint (Groq Whisper)", BE, "RAGBackEnd/main.py", "python", [(160, 186)]),
- ("3.2", "pause detection from word timestamps", ION, SVC, "typescript", [(276, 293), (303, 312)]),
+ ("3.2", "pause detection from word timestamps", ION, SVC, "typescript", [(276, 293), (304, 312)]),
  ("3.3", "acoustic feature extraction (NumPy)", BE, "RAGBackEnd/main.py", "python", [(67, 95), (120, 136)]),
- ("3.4", "Corpus 2 chunking and embedding", BE, "RAGBackEnd/ingest.py", "python", [(45, 66), (114, 122)]),
- ("3.5", "Practice Mode word accuracy", ION, SVC, "typescript", [(447, 455), (498, 521)]),
- ("3.6", "Corpus 1 cosine similarity retrieval", BE, "RAGBackEnd/retrieval.py", "python", [(34, 63)]),
- ("3.7", "weak areas measured from the session", BE, "RAGBackEnd/retrieval.py", "python", [(137, 170)]),
+ ("3.4", "Corpus 2 chunking and embedding", BE, "RAGBackEnd/ingest.py", "python", [(47, 67), (115, 123)]),
+ ("3.5", "Practice Mode word accuracy", ION, SVC, "typescript", [(447, 455), (498, 520)]),
+ ("3.6", "Corpus 1 cosine similarity retrieval", BE, "RAGBackEnd/retrieval.py", "python", [(34, 61)]),
+ ("3.7", "weak areas measured from the session", BE, "RAGBackEnd/retrieval.py", "python", [(139, 144), (147, 152), (159, 165), (171, 183)]),
  ("3.8", "LLM call with structured JSON output", BE, "RAGBackEnd/main.py", "python", [(284, 318)]),
  ("3.9", "category weights and weighted overall", ION, SVC, "typescript", [(153, 178)]),
  ("3.10", "TensorFlow.js regression for high-impact dimensions", ION, "src/app/services/adaptive-learning.service.ts", "typescript", [(229, 256)]),
@@ -32,7 +32,7 @@ body{margin:0;background:#fff;}
 .dot{width:10px;height:10px;border-radius:50%;display:inline-block}
 table{border-collapse:collapse;margin:8px 0}
 td.ln{color:#8c959f;text-align:right;padding:0 12px 0 14px;user-select:none;vertical-align:top;white-space:pre}
-td.code{padding:0 18px 0 4px;max-width:92ch}
+td.code{padding:0 18px 0 4px;max-width:90ch}
 td.code pre{white-space:pre-wrap;overflow-wrap:anywhere;padding-left:4ch;text-indent:-4ch}
 .code pre, .ln pre{margin:0;line-height:1.5;font-family:inherit}
 .gap td{color:#8c959f;font-style:italic}
@@ -41,18 +41,18 @@ td.code pre{white-space:pre-wrap;overflow-wrap:anywhere;padding-left:4ch;text-in
 def render(entry):
     lid, title, root, path, lang, ranges = entry
     src = open(os.path.join(root, path), encoding="utf-8").read().split("\n")
-    lexer = get_lexer_by_name(lang)
+    lexer = get_lexer_by_name(lang, stripnl=False, ensurenl=False)
     fmt = HtmlFormatter(style="default", nowrap=True)
     rows = []
     allines = [l for (a, b) in ranges for l in src[a-1:b]]
     ind = min((len(l) - len(l.lstrip()) for l in allines if l.strip()), default=0)
+    full = highlight("\n".join(l[ind:] if l.strip() else "" for l in src), lexer, fmt).split("\n")
     for k, (a, b) in enumerate(ranges):
         if k:
             rows.append('<tr class="gap"><td class="ln"><pre>⋮</pre></td><td class="code"><pre>  …</pre></td></tr>')
-        block = src[a-1:b]
-        hl = highlight("\n".join(l[ind:] for l in block), lexer, fmt).rstrip("\n").split("\n")
-        for n, line in zip(range(a, b+1), hl):
-            rows.append(f'<tr><td class="ln"><pre>{n}</pre></td><td class="code"><pre>{line or " "}</pre></td></tr>')
+        print(path, a, repr(src[a-1].strip()[:50]), "...", b, repr(src[b-1].strip()[:50]), file=sys.stderr)
+        for n in range(a, b + 1):
+            rows.append(f'<tr><td class="ln"><pre>{n}</pre></td><td class="code"><pre>{full[n-1] or " "}</pre></td></tr>')
     css = fmt.get_style_defs(".code") + CSS_EXTRA
     doc = f"""<html><head><meta charset=utf-8><style>{css}</style></head><body>
 <div class=card id=card><div class=bar><span class=dot style="background:#ff5f57"></span>
